@@ -13,6 +13,8 @@ while True:
   else:
     print("Ne ugadali")
     popit += 1;
+    if (n > rand): print("Zagadannoe chislo menshe")
+    else: print("Zagadannoe chislo bolshe")
     
 #задание2 - у меня вскипели мозги, если честно  
 mass = input("Bukvi: ").lower().split(' ')
